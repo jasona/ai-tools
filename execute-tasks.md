@@ -15,7 +15,7 @@ Guidelines for managing task lists in markdown files to track progress on comple
    - Mark tasks and subtasks as completed (`[x]`) per the protocol above.
    - Add new tasks as they emerge.
 
-2. ** Maintain the "Relevant Files" section:**
+2. **Maintain the "Relevant Files" section:**
    - List every file created or modified.
    - Give each file a one-line description of its purpose.
 
