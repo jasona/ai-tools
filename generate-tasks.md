@@ -1,6 +1,22 @@
 
 # Rule: Generating a Task List from User Requirements
 
+## Corporate Standards
+
+This phase is governed by your organization's Corporate Standards. Before proceeding:
+
+1. **Reference the applicable standards** from `/standards/`:
+   - `global/principles.md` - Core principles
+   - `phases/generate-tasks.md` - Task generation standards
+
+2. **Apply standards throughout**: Task lists must comply with referenced standards (especially TASKS-1 through TASKS-7).
+
+3. **Document compliance**: Include standards version in the generated task file.
+
+If standards files are not available, proceed without them but note that standards should be established for team consistency.
+
+---
+
 ## Goal
 
 To guide an AI assistant in creating a detailed, step-by-step task list in Markdown format based on user requirements, feature requests, or existing documentation. The task list should guide a developer through implementation.

@@ -1,5 +1,23 @@
 # Rule: Generating a Design Requirements Document (DRD)
 
+## Corporate Standards
+
+This phase is governed by your organization's Corporate Standards. Before proceeding:
+
+1. **Reference the applicable standards** from `/standards/`:
+   - `global/principles.md` - Core principles
+   - `global/accessibility.md` - Accessibility requirements
+   - `domains/design-ui.md` - Design system and UI standards
+   - `phases/create-drd.md` - DRD-specific standards
+
+2. **Apply standards throughout**: DRD outputs must comply with referenced standards (especially DRD-1 through DRD-7, DESIGN-1 through DESIGN-9, ACCESS-1 through ACCESS-7).
+
+3. **Document compliance**: Include a Standards Compliance section noting which standards were applied.
+
+If standards files are not available, proceed without them but note that standards should be established for team consistency.
+
+---
+
 ## Goal
 
 To guide an AI assistant in creating a detailed Design Requirements Document (DRD) in Markdown format, based on an initial user prompt. The DRD should be clear, actionable, and suitable for a junior designer to understand and execute the design work.

@@ -1,5 +1,23 @@
 # Rule: Generating a Content Requirements Document (CRD)
 
+## Corporate Standards
+
+This phase is governed by your organization's Corporate Standards. Before proceeding:
+
+1. **Reference the applicable standards** from `/standards/`:
+   - `global/principles.md` - Core principles
+   - `global/terminology.md` - Approved terminology
+   - `domains/content-voice.md` - Voice and tone standards
+   - `phases/create-crd.md` - CRD-specific standards
+
+2. **Apply standards throughout**: CRD outputs must comply with referenced standards (especially CRD-1 through CRD-7, VOICE-1 through VOICE-7).
+
+3. **Document compliance**: Include a Standards Compliance section noting which standards were applied.
+
+If standards files are not available, proceed without them but note that standards should be established for team consistency.
+
+---
+
 ## Goal
 
 To guide an AI assistant in creating a detailed Content Requirements Document (CRD) in Markdown format, based on an initial user prompt. The CRD should be clear, actionable, and suitable for a junior content creator or copywriter to understand and produce the content.

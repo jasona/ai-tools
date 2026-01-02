@@ -1,5 +1,24 @@
 # Task List Management 
 
+## Corporate Standards
+
+This phase is governed by your organization's Corporate Standards. Before proceeding:
+
+1. **Reference the applicable standards** from `/standards/`:
+   - `global/principles.md` - Core principles
+   - `global/security-privacy.md` - Security and privacy rules
+   - `global/accessibility.md` - Accessibility requirements
+   - `domains/code-architecture.md` - Code and architecture standards
+   - `phases/execute-tasks.md` - Execution standards
+
+2. **Apply standards throughout**: All work must comply with referenced standards (especially EXEC-1 through EXEC-8, CODE-1 through CODE-9).
+
+3. **Document compliance**: Note standards compliance and any deviations in PR descriptions.
+
+If standards files are not available, proceed without them but note that standards should be established for team consistency.
+
+---
+
 Guidelines for managing task lists in markdown files to track progress on completing a PRD
 
 ## Task Implementation

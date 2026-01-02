@@ -1,5 +1,24 @@
 # Rule: Generating a Product Requirements Document (PRD)
 
+## Corporate Standards
+
+This phase is governed by your organization's Corporate Standards. Before proceeding:
+
+1. **Reference the applicable standards** from `/standards/`:
+   - `global/principles.md` - Core principles
+   - `global/security-privacy.md` - Security and privacy rules
+   - `global/terminology.md` - Approved terminology
+   - `domains/code-architecture.md` - Code and architecture standards
+   - `phases/create-prd.md` - PRD-specific standards
+
+2. **Apply standards throughout**: PRD outputs must comply with referenced standards (especially PRD-1 through PRD-7).
+
+3. **Document compliance**: Include a Standards Compliance section noting which standards were applied.
+
+If standards files are not available, proceed without them but note that standards should be established for team consistency.
+
+---
+
 ## Goal
 
 To guide an AI assistant in creating a detailed Product Requirements Document (PRD) in Markdown format, based on an initial user prompt. The PRD should be clear, actionable, and suitable for a junior developer to understand and implement the feature.
