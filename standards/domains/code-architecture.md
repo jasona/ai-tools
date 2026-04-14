@@ -12,6 +12,9 @@ These standards ensure our .NET/C# codebase is readable, maintainable, testable,
 
 ## Musts (Non-Negotiable)
 
+### Platform & Language Version
+- [CODE-0] **Use the Latest .NET and C# Versions**: New projects MUST target the latest released version of .NET (prefer the current LTS for production services; the current STS is acceptable for shorter-lived apps and internal tools). Existing projects MUST be kept on a supported version — do not start new work on end-of-life runtimes. The `<LangVersion>` property MUST be `latest` (or omitted so it tracks the SDK) so the newest C# language features are available. When the AI assistant is unsure which version is current, it MUST check (e.g., `dotnet --list-sdks`, the project's `global.json`/`*.csproj` `TargetFramework`, or https://dotnet.microsoft.com/platform/support/policy/dotnet-core) rather than assume a specific number.
+
 ### Code Quality
 - [CODE-1] **Follow .NET Conventions**: All code MUST follow Microsoft's .NET coding conventions and C# naming guidelines (PascalCase for public members, camelCase for private fields with underscore prefix `_fieldName`).
 - [CODE-2] **Use Nullable Reference Types**: Projects MUST have nullable reference types enabled (`<Nullable>enable</Nullable>`); handle nullability explicitly.
